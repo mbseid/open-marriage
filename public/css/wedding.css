@@ -5,13 +5,46 @@ body {
     padding: 0;
 }
 
-#map {
-    width: 100%;
-    height: 62%;
-    top: 0;
+.wedding-nav {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+/* You could use :after - it doesn't really matter */
+.wedding-nav:after {
+    content: ' ';
+    display: block;
+    position: absolute;
     left: 0;
-    position: fixed !important;
-    background: #fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.wedding-nav ul{
+    list-style: none;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.wedding-nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    font-family: "learning-curve", sans-serif;
 }
 
 .l-wrap {

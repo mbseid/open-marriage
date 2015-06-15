@@ -20,7 +20,7 @@ h4 { font-size: 1em; }
 
 a:link,
 a:visited {
-    color: #216eb5;
+    color: #464785;
     text-decoration: none;
 }
 
@@ -185,7 +185,7 @@ a.is-button-negative {
 }
 .brand a:hover,
 .brand a:active {
-    color: #216eb5;
+    color: #464785;
 }
 
 .nav-list {
@@ -196,6 +196,7 @@ a.is-button-negative {
 .nav-item {
     margin: 0 1em 0 0;
     text-transform: uppercase;
+    color: #33336F;
 }
 .nav-item:first-child {
     margin-left: 0;
@@ -212,7 +213,7 @@ a.is-button-negative {
 }
 .nav-item a:hover b,
 .nav-item a:active b {
-    border-bottom: 1px solid #216eb5;
+    border-bottom: 1px solid #464785;
 }
 .is-nav-item-active b {
     border-bottom: 1px solid #e5e5df;
@@ -280,7 +281,7 @@ a.is-button-negative {
 }
 .subnav .nav-item:first-child a:hover,
 .subnav .nav-item:first-child a:active {
-    color: #216eb5;
+    color: #464785;
 }
 .subnav .nav-item:first-child b {
     border-bottom: none;
@@ -291,7 +292,7 @@ a.is-button-negative {
 
 .ann {
     font-size: 1.25em;
-    line-height: 1.25;
+    line-height: 1.15;
     margin: 1em 0;
 }
 .ann > * {
@@ -299,14 +300,14 @@ a.is-button-negative {
     text-align: center;
 }
 .ann-primary {
-    font-family: "futura-pt", sans-serif;
+    font-family: "learning-curve", sans-serif;
     font-weight: 300;
-    font-size: 2em;
-    color: #216eb5;
+    font-size: 3.5em;
+    color: #03045C;
 }
 .ann-secondary {
     line-height: 1.0;
-    color: #b0afa6;
+    color: #EDE5B7;
 }
 
 .callout {
