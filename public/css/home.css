@@ -105,20 +105,24 @@ body {
 .event-header {
     margin-top: 0;
     margin-bottom: 0.4em;
-    padding-right: 2.5em;
     font-size: 1.25em;
 }
 .event-title {
-    width: 100%;
     color: #33336F;
+    text-align: left;
 }
 .event-person {
     font-family: "futura-pt", sans-serif;
     font-weight: 300;
     color: #b0afa6;
     text-align: right;
-    width: 3em;
-    margin-right: -3.5em;
+}
+.event-title,
+.event-person {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: -4px;
+    width: 50%;
 }
 .event-person-sep {
     font-family: "jubilat", serif;
