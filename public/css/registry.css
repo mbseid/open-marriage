@@ -18,6 +18,9 @@
 .donate .button {
     padding-left: 0.5em;
 }
+.reg #logo{
+    width: 100%;
+}
 
 /* 576px */
 @media screen and (min-width: 36em) {

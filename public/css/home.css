@@ -177,8 +177,84 @@ body {
     }
 }
 
+#homepage{
+    height: calc(100vh - 65px);
+    width: 100vw;
+    position: relative;
+}
+
+#homepage #back.homepage-img{
+    background: url(/img/home/back.jpg) no-repeat center center fixed; 
+}
+#homepage #family.homepage-img{
+    background: url(/img/home/family.jpg) no-repeat center center fixed; 
+    background-position: center calc(50% + 100px);
+}
+#homepage #kiss.homepage-img{
+    background: url(/img/home/kiss.jpg) no-repeat center center fixed; 
+}
+#homepage #info{
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    background-color: rgba(216, 163, 0, .7);
+    padding: 10px;
+    padding-right: 175px;
+}
+
+#homepage #info:before{
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    right: 20px;
+    background-image: url('/img/home/logo.png');
+    background-repeat: no-repeat;
+    background-size: 120px 140px;
+    content:"";
+    display: inline-block;
+}
+
+#homepage #info h1, h3{
+    line-height: .5em;
+    color: #1E3664;
+}
+#homepage #info h1{
+
+}
+
+#homepage #info h3{
+    
+}
+
+#homepage .homepage-img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#homepage .homepage-img#back, #homepage .homepage-img#kiss{
+    display: none;
+}
+
 /* 568px */
 @media screen and (min-width: 35.5em) {
+    #homepage .homepage-img#kiss{
+        display: inline-block;
+        background-position: calc(50% + 100px) calc(50% - 150px);
+    }
+    #homepage .homepage-img#family{
+        background-position: calc(50% - 100px) calc(50% + 50px)
+    }
+    #homepage .homepage-img{
+        width: 49.9%;
+        margin-left: -2px;
+    }
 
 }
 
@@ -263,6 +339,18 @@ body {
     }
 }
 
+.wedding-overview{
+    text-align: center;
+}
+.wedding-overview h3{
+    font-size: 3em;
+    font-family: "learning-curve", sans-serif;
+    margin-bottom: 0;
+}
+.wedding-overview h3:nth-child(n+1){
+    margin-top: 5px;
+}
+
 /* 770px */
 @media screen and (min-width: 48.125em) {
     .event {
@@ -272,5 +360,20 @@ body {
 
 /* 1024px */
 @media screen and (min-width: 64em) {
-
+    #homepage .homepage-img#back{
+        display: inline-block;
+    }
+    #homepage .homepage-img#kiss{
+        display: inline-block;
+        background-position: calc(100% + 100px) calc(50% - 150px);
+    }
+    #homepage .homepage-img#family{
+        background-position: calc(50% + 50px) calc(50% + 100px);
+    }
+    #homepage .homepage-img#back{
+        background-position: calc(0% - 170px) calc(50% + 50px);
+    }
+    #homepage .homepage-img{
+        width: 33%;
+    }
 }

@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "jubilat", serif;
+    font-family: "proxima-nova" sans-serif;
     font-weight: 400;
 }
 
@@ -180,7 +180,7 @@ a.is-button-negative {
 .brand a {
     display: block;
     padding: 0 0.4em;
-    color: #b0afa6;
+    color: #D8A300;
     text-decoration: none;
 }
 .brand a:hover,
@@ -196,10 +196,14 @@ a.is-button-negative {
 .nav-item {
     margin: 0 1em 0 0;
     text-transform: uppercase;
-    color: #33336F;
-
-    /* remove this when we want to have a save the date or anything else */
-    display: none;
+    color: #b0afa6;
+    text-decoration: none;
+}
+.nav-item i{
+    color: #D8A300;
+}
+.nav-item b {
+    color: #1E3664;
 }
 .nav-item:first-child {
     margin-left: 0;

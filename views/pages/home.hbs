@@ -2,107 +2,14 @@
 {{setDescription "Brianna Olivia Wagenbrenner & Richard Timothy Evans are getting married!"}}
 {{addCSS "/css/home.css"}}
 
-<h1 class="ann">
-    <span class="ann-primary">Brianna Olivia</span>
-    <span class="ann-secondary ann-sep">&amp;</span>
-    <span class="ann-primary">Richard Timothy</span>
-</h1>
-
-<ol class="timeline l-grid">
-  {{#event "going to the chapel"
-        time   = "Date: September 2016"
-        photo  = "/photos/chapel.jpg"
-        alt    = "Photo of Brianna and RT having fun."
-        }}
-
-    {{> event/header}}
-    {{> event/photo}}
-
-    <p>
-        Brianna and RT are getting married in the fall of 2016, in <strong>Georgia</strong>.
-    </p>
-
-    <!-- <p class="button-wedding">
-        <a class="button" data-icon="i" href="/wedding/">See Wedding Details</a>
-    </p> -->
-
-    {{> event/time}}
-  {{/event}}
-
-  {{#event "the weekend of surprises"
-        time  = "June 6, 2015"
-        photo = "/photos/surprises.jpg"
-        alt   = "On one knee"}}
-    {{> event/header}}
-    <p>
-    RT and Brianna drove down to Savannah, Georgia for the weekend under the auspice of RT’s work trip. Little did Brianna know, RT arranged for their family and friends to gather for an engagement surprise! 
-    </p>
-    {{> event/photo}}
-
-    <p>
-        Saturday morning during breakfast RT snuck away as friends, Becca and Brianna, took Brianna away following clues from RT on handwritten cards.
-    </p>
-
-    {{> event/time}}
-  {{/event}}
-
-      <li class="timeline-events">
-        <ol class="l-grid">
-           {{#event "a dress for the occasion"
-                who="left"
-                photo = "photos/dress.jpg"
-               }}
-
-            {{> event/header}}
-            {{> event/photo}}
-            <p>
-                First they went dress shopping where her sisters, Chelsea and Shannon, were waiting in the dressing room. 
-            </p>
-          {{/event}}
-
-          {{#event "rooftop cocktails"
-                who  = "right"
-                photo = "photos/rooftop.jpg"
-
-                }}
-
-            {{> event/header}}
-            {{> event/photo}}
-
-            <p>
-                Next the entourage had a delicious lunch overlooking the Savannah river before driving to Statesboro.
-            </p>
-            {{/event}}
-        </ol>
-    </li>
-
-
-
-  {{#event "he popped the question"
-        photo="photos/engagement.jpg"}}
-
-    {{> event/header}}
-    {{> event/photo}}
-    <p>
-        Brianna stepped out of the car at her alma mater to find RT standing in the middle of Sweetheart Circle. On a beautiful sunny day RT got down on one knee and proposed to Brianna. Overjoyed amongst many hugs and kisses Brianna said yes! 
-    </p>
-  {{/event}}
-  {{#event "dinner at the Pink House"}}
-
-    {{> event/header}}
-    <div class="event-photo">
-        <img src="photos/dinner.jpg" />
-    </div>
-    <div class="event-photo">
-        <img src="photos/dinner2.jpg"  />
-    </div>
-    <div class="event-photo">
-        <img src="photos/cake.jpg"  />
-    </div>
-
-    <p>
-        RT capped off the weekend of surprises with a dinner with Brianna and RTs families at the Pink House in Savannah.   
-    </p>
-  {{/event}}
-
-</ol>
+<div id="homepage">
+  <section id="info">
+    <h1>Brianna Olivia</h1>
+    <h1>&amp; Richard Timothy</h1>
+    <h3>24th September 2016</h3>
+    <h3>Indigo Falls, GA</h3>
+  </section>
+  <div class="homepage-img" id="back"></div>
+  <div class="homepage-img" id="family"></div>
+  <div class="homepage-img" id="kiss"></div>
+</div>

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var http = require('http'),
     app  = require('./app'),
     port = app.get('port');

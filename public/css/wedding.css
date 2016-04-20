@@ -120,6 +120,49 @@ body {
     padding-top: 2.4em;
 }
 
+#wedding{
+    width: 100%;
+    height: 100vh;
+}
+#wedding .img-background{
+    width: 100%;
+    height: 100vh;
+}
+#wedding .img-background#wedding{
+    background: url(/img/wedding/wedding.jpg) no-repeat center center fixed; 
+}
+
+#wedding .img-background{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#wedding #info{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    line-height: .5em;
+    background-color: rgba(216, 163, 0, .7);
+    padding: 10px;
+    padding-left: 175px;
+}
+
+#wedding #info:before{
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    left: 20px;
+    background-image: url('/img/home/logo.png');
+    background-repeat: no-repeat;
+    background-size: 120px 140px;
+    content:"";
+    display: inline-block;
+}
+
+#wedding
 /* 480px */
 @media screen and (min-width: 30em) {
     .cal-day {
@@ -163,6 +206,7 @@ body {
         padding-top: 2em;
     }
 }
+
 
 /* 768px */
 @media screen and (min-width: 48em) {
