@@ -219,7 +219,7 @@ body {
     color: #1E3664;
 }
 #homepage #info h1{
-
+    white-space: nowrap;
 }
 
 #homepage #info h3{
