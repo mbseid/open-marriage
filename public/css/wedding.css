@@ -144,7 +144,7 @@ body {
     position: absolute;
     top: 100px;
     right: 50px;
-    line-height: .5em;
+    line-height: 1em;
     background-color: rgba(216, 163, 0, .7);
     padding: 10px;
     padding-left: 175px;
@@ -162,7 +162,6 @@ body {
     display: inline-block;
 }
 
-#wedding
 /* 480px */
 @media screen and (min-width: 30em) {
     .cal-day {
@@ -221,6 +220,10 @@ body {
         margin-top: -1.6667em;
         padding-top: 2.6667em;
     }
+
+    #wedding #info{
+        line-height: 0.5em;
+    ]
 }
 
 /* 770px */
