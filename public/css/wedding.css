@@ -141,6 +141,7 @@ body {
 }
 
 #wedding #info{
+    cursor: pointer;
     position: absolute;
     top: 100px;
     right: 50px;
@@ -149,18 +150,37 @@ body {
     padding: 10px;
     padding-left: 175px;
 }
+#wedding #info a{
+    color: black;
+}
 
 #wedding #info:before{
     position: absolute;
-    width: 120px;
-    height: 140px;
+    width: 140px;
+    height: 120px;
     left: 20px;
     background-image: url('/img/home/logo.png');
     background-repeat: no-repeat;
-    background-size: 120px 140px;
+    background-size: 140px 120px;
     content:"";
     display: inline-block;
 }
+
+#wedding #info2{
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    line-height: 1em;
+    background-color: rgba(216, 163, 0, .7);
+    padding: 10px;
+    padding-right: 10px;
+}
+#wedding #info2 a{
+    color: black;
+}
+
+
 
 /* 480px */
 @media screen and (min-width: 30em) {
@@ -183,7 +203,22 @@ body {
 
 /* 568px */
 @media screen and (min-width: 35.5em) {
-
+    #wedding #info2{
+        padding-right: 175px;
+        bottom: 100px;
+        right: 50px;
+    }
+    #wedding #info2:before{
+        position: absolute;
+        width: 140px;
+        height: 120px;
+        right: 20px;
+        background-image: url('/img/home/logo.png');
+        background-repeat: no-repeat;
+        background-size: 140px 120px;
+        content:"";
+        display: inline-block;
+    }
 }
 
 /* 576px */

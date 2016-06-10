@@ -199,19 +199,7 @@ body {
     left: 35px;
     background-color: rgba(216, 163, 0, .7);
     padding: 10px;
-    padding-right: 175px;
-}
-
-#homepage #info:before{
-    position: absolute;
-    width: 120px;
-    height: 140px;
-    right: 20px;
-    background-image: url('/img/home/logo.png');
-    background-repeat: no-repeat;
-    background-size: 120px 140px;
-    content:"";
-    display: inline-block;
+    padding-right: 10px;
 }
 
 #homepage #info h1, h3{
@@ -255,6 +243,22 @@ body {
         width: 49.9%;
         margin-left: -2px;
     }
+    #homepage #info:before{
+        position: absolute;
+        width: 140px;
+        height: 120px;
+        right: 20px;
+        background-image: url('/img/home/logo.png');
+        background-repeat: no-repeat;
+        background-size: 140px 120px;
+        content:"";
+        display: inline-block;
+    }
+
+    #homepage #info{
+        padding-right: 175px;
+    }
+
 
 }
 
