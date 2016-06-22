@@ -31,7 +31,7 @@ body {
 
 .ann-sep {
     font-size: 2.5em;
-    color: #E8E6A9;
+    color: #F5CEDD;
 }
 
 .timeline {
@@ -40,6 +40,7 @@ body {
     max-width: 48em;
     padding: 2em 0 3em;
     position: relative;
+    margin-top: 60px;
 }
 .timeline:before {
     content: '';
@@ -50,7 +51,7 @@ body {
     top: 0;
     left: 50%;
     margin-left: -0.25em;
-    background: #E8E6A9;
+    background: #F5CEDD;
 }
 .timeline:after {
     content: "\f004";
@@ -63,7 +64,7 @@ body {
     left: -0.0417em;
     width: 100%;
     text-align: center;
-    color: #E8E6A9;
+    color: #F5CEDD;
 }
 .timeline-events {
     margin-top: -2em;
@@ -109,6 +110,7 @@ body {
 }
 .event-title {
     color: #33336F;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
 }
 .event-person {

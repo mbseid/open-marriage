@@ -308,9 +308,8 @@ a.is-button-negative {
     text-align: center;
 }
 .ann-primary {
-    font-family: "learning-curve", sans-serif;
     font-weight: 300;
-    font-size: 3.5em;
+    font-size: 3em;
     color: #03045C;
 }
 .ann-secondary {
