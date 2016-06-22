@@ -178,21 +178,39 @@ body {
 }
 
 #homepage{
-    height: calc(100vh - 65px);
+    min-height: calc(100vh - 65px);
     width: 100vw;
     position: relative;
+    background: url(/img/home/pose.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#homepage #back.homepage-img{
-    background: url(/img/home/back.jpg) no-repeat center center fixed; 
+
+#homepage section{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
 }
-#homepage #family.homepage-img{
-    background: url(/img/home/family.jpg) no-repeat center center fixed; 
-    background-position: center calc(50% + 100px);
+#homepage section h1{
+    text-align: center;
+    color: #FFE3E7;
+    font-size: 3em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px #333;
+    font-weight: 250;
 }
-#homepage #kiss.homepage-img{
-    background: url(/img/home/kiss.jpg) no-repeat center center fixed; 
+#homepage section h3{
+    text-align: center;
+    color: #000;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 1px white;
+    background-color: 
 }
+
 #homepage #info{
     position: absolute;
     bottom: 35px;
@@ -260,6 +278,13 @@ body {
         padding-right: 175px;
     }
 
+    #homepage section h1,  #homepage section h3{
+       margin-left: -45%;
+    }
+    #homepage section h3{
+        color: #ddd;
+        text-shadow: none;
+    }
 
 }
 

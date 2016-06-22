@@ -218,6 +218,7 @@ a.is-button-negative {
 }
 .nav-item b {
     font-weight: inherit;
+    cursor: pointer;
 }
 .nav-item a:hover b,
 .nav-item a:active b {
@@ -232,7 +233,7 @@ a.is-button-negative {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fffaf0;
+    background: #ffFEFA;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
@@ -402,25 +403,3 @@ a.is-button-negative {
     }
 }
 
-/* 768px */
-@media screen and (min-width: 48em) {
-    body {
-        padding-top: 4em;
-    }
-
-    .brand {
-        line-height: 2.6667;
-    }
-
-    .nav .nav-item a {
-        padding: 1.3889em 0.8888em 1.1667em;
-    }
-}
-
-/* 1024px */
-@media screen and (min-width: 64em) {
-    .ann {
-        font-size: 2.5em;
-        margin: 1.2em 0;
-    }
-}
