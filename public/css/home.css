@@ -208,10 +208,11 @@ body {
 }
 #homepage #info h1{
     white-space: nowrap;
+    font-size: 2em;
 }
 
 #homepage #info h3{
-    
+    font-family: 'Raleway', sans-serif;
 }
 
 #homepage .homepage-img{

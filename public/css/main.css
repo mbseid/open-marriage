@@ -3,14 +3,14 @@ body {
     line-height: 1.5;
     background: #fcfcf7;
     color: #191506;
-    font-family: "proxima-nova" sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding-top: 3em;
     padding-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "proxima-nova" sans-serif;
-    font-weight: 400;
+    font-family: 'Clicker Script', cursive;
+    font-weight: 800;
 }
 
 h1 { font-size: 1.5em; }
@@ -180,12 +180,13 @@ a.is-button-negative {
 .brand a {
     display: block;
     padding: 0 0.4em;
-    color: #D8A300;
+    color: #1E3664;
     text-decoration: none;
 }
 .brand a:hover,
 .brand a:active {
-    color: #464785;
+    color: #AD0E4E;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -200,7 +201,7 @@ a.is-button-negative {
     text-decoration: none;
 }
 .nav-item i{
-    color: #D8A300;
+    color: #F5CEDD;
 }
 .nav-item b {
     color: #1E3664;
@@ -231,8 +232,7 @@ a.is-button-negative {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.98);
+    background: #fffaf0;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
