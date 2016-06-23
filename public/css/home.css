@@ -203,14 +203,20 @@ body {
     line-height: 1em;
     text-shadow: 1px 1px 1px #333;
     font-weight: 250;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+#homepage section h1:first-child{
+    margin-bottom: 10px;
+}
+
 #homepage section h3{
     text-align: center;
     color: #000;
     font-size: 23px;
     font-family: 'Raleway', sans-serif;
-    text-shadow: 1px 1px 1px white;
-    background-color: 
+    text-shadow: 1px 1px 1px black;
+    color: #d5d5d5;
 }
 
 #homepage #info{
@@ -282,10 +288,6 @@ body {
 
     #homepage section h1,  #homepage section h3{
        margin-left: -45%;
-    }
-    #homepage section h3{
-        color: #ddd;
-        text-shadow: none;
     }
 
 }
